@@ -1,0 +1,96 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.scroll-view-item {
+  height: 200rpx;
+  background: pink;
+  margin-bottom: 10rpx;
+}
+
+.flex-wrp {
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10rpx;
+  box-sizing:border-box;
+}
+
+.flex-item {
+  flex-basis: 32%;
+  margin: 0 5rpx;
+  height: 210rpx;
+}
+
+.flex-item image {
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.info {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bc_green {
+  background: green;
+}
+
+.bc_red {
+  background: red;
+}
+
+.bc_blue {
+  background: blue;
+}
+
+#myVideo {
+  width: 100%;
+}
+
+.controls {
+  position: relative;
+  top: 50%;
+  height: 50px;
+  margin-top: -25px;
+  display: flex;
+}
+.play,.pause,.time {
+  flex: 1;
+  height: 100%;
+}
+.time {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  line-height: 50px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  margin: 5px auto;
+}
